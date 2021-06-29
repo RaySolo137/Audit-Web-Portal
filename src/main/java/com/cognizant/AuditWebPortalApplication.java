@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableFeignClients
 //@ComponentScan(basePackages = "com.cognizant.auditportal.controller" + "com.cognizant.model" + "com.cognizant.feignclients")
-public class AuditWebPortalApplication extends SpringBootServletInitializer{
+public class AuditWebPortalApplication{
 
 	
 	public static void main(String[] args) {
